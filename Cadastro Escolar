@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Cadastro Escolar</title>
+
+</head>
+
+<body>
+
+  <h1>Sistema de Cadastro de Notas</h1>
+
+  <script>
+
+   
+const um = prompt("Nota 1:");
+const dois = prompt("Nota 2:");
+const tres = prompt("Nota 3:");
+const media = (um/3 + dois/3 + tres/3);
+let aluno = confirm ("Presione 'ok' para confirmar que é um estudante ativo")
+if (aluno == true){
+  const vv = 1
+}
+else{
+  const tt = 0
+}
+if (media >= 7){
+  console.log("Aprovado!");
+} else{
+  console.log("Reprovado!")
+}
+
+
+
+  </script>
+
+</body>
+
