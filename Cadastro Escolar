@@ -31,12 +31,22 @@ else{
 if (media >= 7){
   console.log("Aprovado!");
 } else{
-  console.log("Reprovado!")
+  console.log("Reprovado!");
 }
 
+const stringsobrenome = prompt("digite seu sobrenome em maiusculo aqui");
+const stringnome = prompt("digite seu nome aqui:");
+console.log(stringnome.length);
 
-
+let ativo = confirm("pressione 'ok' se você for um aluno ativo");
+if (ativo == true){
+ const vv = 1 
+} else{ 
+  const tt = 0
+}
+const idadeM = (2026-2010)
+console.log("Sua idade média é de:");
+console.log(idadeM)
   </script>
 
 </body>
-
